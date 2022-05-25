@@ -1,0 +1,139 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48%;
+
+}
+
+body {
+    font-size: 14px;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+.nobull {
+    list-style-type: none;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 153, 255);
+    position: relative;
+    left: -20px;
+    top: -8px;
+
+   
+}
+
+h1 {
+    line-height: 20px;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #750000;
+    text-shadow: 2px 2px 3 px rgba(0,0,0,0.5);
+
+}
+h3 {
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+h1::after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 150px;
+    margin: 5px auto 40px;
+    box-shadow: -875px 2px 3px rgba(0,0,0,0.5);
+}
+
+p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+.navbar {
+    height: 105px;
+    max-height: 340px;
+    display: block;
+
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+}
+.menu-container {
+    color: #fff;
+    float: left;
+    width:  200px;
+    height: 100px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 100%;
+    cursor: pointer;
+    
+}
+
+.cleanfix:after,
+.container:after,
+.navbar:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+/*====================================
+   HOME SECTION
+======================================*/
+#home {
+    background: url(../images/thumb/bgpic.png) no-repeat 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 350px;
+    padding-bottom: 500px;
+    color: #fff;
+}
+
+.head-main {
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.9);
+    font-variant: small-caps;
+    color: #fff;
+    letter-spacing: 5pt;
+    word-spacing: 21pt;
+    font-size: 4.5em;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 2;
+    font-weight: 900;
+    border: 5px double #fff;
+    padding: 10px;
+
+}
+
+.head-sub-main {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 50px 20px 10px 20px;
+    text-transform: uppercase;
+
+}
+
+.head-last {
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px 20px 20px 20px;
+    border: 1px dotted #fff;
+    padding: 5px;
+}
+
